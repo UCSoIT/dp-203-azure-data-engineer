@@ -33,7 +33,7 @@ In this exercise, you'll use a combination of a PowerShell script and an ARM tem
 
     ```
     rm -r dp-203 -f
-    git clone https://github.com/venkatvvg/dp-203-azure-data-engineer dp-203
+    git clone https://github.com/ucsoit/dp-203-azure-data-engineer dp-203
     ```
 
 5. After the repo has been cloned, enter the following commands to change to the folder for this exercise and run the **setup.ps1** script it contains:
@@ -90,7 +90,7 @@ One of the key tasks you can perform with Azure Synapse Analytics is to define *
         - **Name**: Products
         - **Description**: Product list via HTTP
         - **Connect via integration runtime**: AutoResolveIntegrationRuntime
-        - **Base URL**: `https://raw.githubusercontent.com/venkatvvg/dp-203-azure-data-engineer/master/Allfiles/labs/01/adventureworks/products.csv`
+        - **Base URL**: `https://raw.githubusercontent.com/ucsoit/dp-203-azure-data-engineer/master/Allfiles/labs/01/adventureworks/products.csv`
         - **Server Certificate Validation**: Enable
         - **Authentication type**: Anonymous
 4. After creating the connection, on the **Source data store** page, ensure the following settings are selected, and then select **Next >**:
