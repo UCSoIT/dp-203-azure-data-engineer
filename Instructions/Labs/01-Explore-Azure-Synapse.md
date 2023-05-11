@@ -44,9 +44,7 @@ In this exercise, you'll use a combination of a PowerShell script and an ARM tem
     ```
 
 6. If prompted, choose which subscription you want to use (this will only happen if you have access to multiple Azure subscriptions).
-7. When prompted, enter a suitable password to be set for your Azure Synapse SQL pool.
-
-    > **Note**: Be sure to remember this password!
+7. The password for your SQL pool has been set for you (ABCabc@123)
 
 8. Wait for the script to complete - this typically takes around 20 minutes, but in some cases may take longer. While you are waiting, review the [What is Azure Synapse Analytics?](https://docs.microsoft.com/azure/synapse-analytics/overview-what-is) article in the Azure Synapse Analytics documentation.
 
